@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Search</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="header">
+    <a href="index.html">Back to Google</a>
+  </div>
+  <div class="appbar">
+    <label >Advanced Search</label>
+  </div>
+  <div class="solidline"></div>
+  <div class="space"></div>
+
+
+  <div class="search-fields" >
+    <div class="table-header">
+      <div class="left-col">Find pages with...</div>
+      <div class="text-input"></div>
+      <div class="right-col">To do this in the search box</div>
+      
+    </div>
+    
+  </div>
+
+  <form class="search-fields" action="https://www.google.com/search">
+    <div class="table-header">
+      <div class="left-col">All these words:  </div>
+      <input class="text-input" type="text" name="as_q">
+      <div class="right-col">Type the important words: tri-colour rat terrier</div>
+    </div> 
+    <div class="table-header">
+      <div class="left-col">this exact word or phrase:</div>
+      <input class="text-input" type="text" name="as_epq">
+      <div class="right-col">Put exact words in quotes: "rat terrier"</div>
+    </div> 
+    <div class="table-header">
+      <div class="left-col">any of these words:</div>
+      <input class="text-input" type="text" name="as_oq">
+      <div class="right-col">Type OR between all the words you want: miniature OR standard</div>
+    </div> 
+    <div class="table-header">
+      <div class="left-col">none of these words:</div>
+      <input class="text-input" type="text" name="as_eq">
+      <div class="right-col">Put a minus sign just before words that you don't want: -rodent, -"Jack Russell"
+      </div>
+    </div> 
+    <div class="btn-header">
+      
+      <input class="btn-input" type="submit" value="Advanced Search"> 
+      
+    </div> 
+    
+  </form>
+</body>
+</html>
